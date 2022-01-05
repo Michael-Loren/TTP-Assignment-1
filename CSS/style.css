@@ -69,3 +69,45 @@ p {
   font-size: 11px;
   line-height: 15px;
 }
+
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url();
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card1 {
+  background-image: url();
+}
+.card2 {
+  background-image: url();
+}
+.card3 {
+  background-image: url();
+}
+.card4 {
+  background-image: url();
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+}
