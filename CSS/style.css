@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-
 }
 
 .container {
@@ -23,14 +22,8 @@
 }
 
 .logo {
-  width: 50px;
+  width: 100px;
   cursor: pointer;
-}
-
-.menu-icon {
-  width: 30px;
-  cursor: pointer;
-  margin-left: 40px;
 }
 
 nav {
@@ -64,12 +57,7 @@ h1 {
   color: #fff;
   font-size: 100px;
 }
-dd {
-color :white;
-}
-h2 {
-    color : blue;
-}
+
 p {
   color: #fff;
   font-size: 11px;
@@ -91,10 +79,26 @@ p {
   transition: transform 0.5s;
 }
 
-
+.card1 {
+  background-image: url(https://media.istockphoto.com/vectors/older-woman-has-alzheimers-disease-and-a-question-above-her-in-the-vector-id1170874344?k=20&m=1170874344&s=170667a&w=0&h=RjHVBpR5EESyvUNc2da6lIjoSoFveSrKZ02Oe8R0ius=);
+}
+.card2 {
+  background-image: url(https://scx2.b-cdn.net/gfx/news/2021/alzheimer.jpg);
+}
+.card3 {
+  background-image: url(https://cdn.sanity.io/images/0vv8moc6/psychtimes/f1044bab7c557fe54969e0a97e618adad3ba4635-580x581.jpg);
+}
+.card4 {
+  background-image: url(https://media.istockphoto.com/vectors/worldalzheimersday_v1-vector-id638715290?b=1&k=20&m=638715290&s=170667a&w=0&h=ZYFt67296v7nJ8f4Ha3xta-ymf7hYb0vQlV3_xC96lc=);
+}
 
 .card:hover {
   transform: translateY(-10px);
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
 }
 
 h5 {
